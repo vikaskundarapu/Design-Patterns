@@ -1,7 +1,4 @@
-/Prototype/
-/abstractFactories/
+/creational/
 /facade/
-/factory/
 /producerConsumer/
-/singleton/
 /visitor/
