@@ -1,4 +1,4 @@
-package visitor.simpleVisitors;
+package behavioral.visitor.simpleVisitors;
 
 abstract class Tree<E> {
 	public interface Visitor<E, R> {

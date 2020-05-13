@@ -1,4 +1,4 @@
-package facade;
+package structural.facade;
 
 public class FacadeShapeMarker {
 
@@ -7,7 +7,6 @@ public class FacadeShapeMarker {
 	Rectangle rectangle;
 
 	public FacadeShapeMarker() {
-		// TODO Auto-generated constructor stub
 		circle = new Circle();
 		square = new Square();
 		rectangle = new Rectangle();

@@ -1,4 +1,4 @@
-package visitor.simple;
+package behavioral.visitor.simple;
 
 public class TreeClient {
 

@@ -1,4 +1,4 @@
-package visitor.simple;
+package behavioral.visitor.simple;
 /*
  * Often, a data structure is defined by case analysis and recursion. 
  * For example, a binary tree of type Tree<E> is one of the following:
