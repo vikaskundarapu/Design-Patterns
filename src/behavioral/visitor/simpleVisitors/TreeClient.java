@@ -53,6 +53,7 @@ class TreeClient {
 
 	public static void main(String[] args) {
 		Tree<Integer> t = Tree.branch(Tree.branch(Tree.leaf(1), Tree.leaf(2)), Tree.leaf(3));
+		System.out.println(toString(t));
 		assert toString(t).equals("((1^2)^3)");
 		assert sum(t) == 6;
 	}

@@ -6,6 +6,8 @@ public class TreeClient {
 		System.out.println("HI");
 		Tree<Integer> tree = Tree.branch(Tree.leaf(1), Tree.leaf(3));
 		Tree<Integer> tree1 = Tree.leaf(50);
+		System.out.println(tree);
+		System.out.println(tree1);
 	}
 
 }
